@@ -16,7 +16,7 @@ import youssef.elhamri.credit_bank.enums.ImmobilierType;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CreditImmobilier extends Credit{
-    @Enumerated(EnumType.STRING)
-    private ImmobilierType type;
+    @Enumerated(EnumType.ORDINAL)
+    private ImmobilierType typeImmobilier;
 
 }

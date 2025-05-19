@@ -39,7 +39,7 @@ public class CreditAppApplication {
                 creditImmobilier.setDemandeDate(new Date());
                 creditImmobilier.setAcceptationDate(new Date());
                 creditImmobilier.setStatus(CreditStatus.EN_COURS);
-                creditImmobilier.setType(ImmobilierType.APPARTEMENT);
+                creditImmobilier.setTypeImmobilier(ImmobilierType.APPARTEMENT);
                 creditImmobilier.setDuree(Math.random()*10000);
                 creditImmobilier.setClient(cl);
                 creditImmobilier.setInteret(5.2);

@@ -4,9 +4,7 @@ import youssef.elhamri.credit_bank.dtos.*;
 import youssef.elhamri.credit_bank.entities.CreditImmobilier;
 import youssef.elhamri.credit_bank.entities.CreditProfessionel;
 import youssef.elhamri.credit_bank.enums.ImmobilierType;
-import youssef.elhamri.credit_bank.exceptions.BalanceNotSufficientException;
-import youssef.elhamri.credit_bank.exceptions.BankAccountNotFoundException;
-import youssef.elhamri.credit_bank.exceptions.CustomerNotFoundException;
+
 
 import java.util.List;
 

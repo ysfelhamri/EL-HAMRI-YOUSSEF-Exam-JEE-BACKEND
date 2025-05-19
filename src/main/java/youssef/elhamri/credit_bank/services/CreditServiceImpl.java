@@ -78,7 +78,7 @@ public class CreditServiceImpl implements CreditService{
         CreditImmobilier creditImmobilier = new CreditImmobilier();
         creditImmobilier.setId(UUID.randomUUID().toString());
         creditImmobilier.setMontant(montant);
-        creditImmobilier.setType(type);
+        creditImmobilier.setTypeImmobilier(type);
         creditImmobilier.setClient(client);
         CreditImmobilier savedCreditImmobilier = creditRepository.save(creditImmobilier);
         return dtoMapper.fromCreditImmobilier(savedCreditImmobilier);
