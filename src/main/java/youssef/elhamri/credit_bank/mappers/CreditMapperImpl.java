@@ -32,7 +32,7 @@ public class CreditMapperImpl {
         creditPersonnelDTO.setType(creditPersonnel.getClass().getSimpleName());
         return creditPersonnelDTO;
     }
-    public CreditProfessionelDTO fromCreditPersonnel(CreditProfessionel creditProfessionel){
+    public CreditProfessionelDTO fromCreditProfessionel(CreditProfessionel creditProfessionel){
         CreditProfessionelDTO creditProfessionelDTO =new CreditProfessionelDTO ();
         BeanUtils.copyProperties(creditProfessionel, creditProfessionelDTO);
         creditProfessionelDTO.setClientDTO(fromClient(creditProfessionel.getClient()));
