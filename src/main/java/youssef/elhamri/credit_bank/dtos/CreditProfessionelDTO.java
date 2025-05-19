@@ -16,4 +16,5 @@ public class CreditProfessionelDTO extends CreditDTO {
     private Double interet;
     private String motif;
     private String raisonSocial;
+    private ClientDTO clientDTO;
 }

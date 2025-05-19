@@ -15,4 +15,5 @@ public class CreditPersonnelDTO extends CreditDTO {
     private Double duree;
     private Double interet;
     private String motif;
+    private ClientDTO clientDTO;
 }
