@@ -15,5 +15,5 @@ public class Client {
     private String name;
     private String email;
     @OneToMany(mappedBy = "client")
-    private List<BankAccount> credits;
+    private List<Credit> credits;
 }
